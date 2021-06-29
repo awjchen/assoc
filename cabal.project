@@ -1,1 +1,9 @@
 packages: .
+
+-- TODO: Remove the below vendored packages when they have migrated to GHC 9.2
+
+source-repository-package
+  type: git
+  location: https://github.com/awjchen/indexed-traversable
+  tag: ea22848a529e1225a0590ac3c73ea06a0710c65c
+  subdir: indexed-traversable
